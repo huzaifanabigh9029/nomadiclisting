@@ -1,0 +1,54 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "shope": "Shope",
+    "pages": "Pages",
+    "blogs": "Blogs",
+    "contact": "Contact",
+    "addlisting": "Add Listing"
+  },
+  "Banner": {
+    "1": "80 80 80",
+    "2": "Find Your Best",
+    "3": "Product By Us",
+    "4": "It is very important for the customer to follow the customer's training, but it is the same time as the work.",
+    "button": "Make An Enquiry"
+  },
+  "Footer": {
+    "email": "Email",
+    "p":"In 808080 you can browse hundreds of carefully designed categories of interest with thousands of classified and commercial Ads for free",
+    "Company": {
+      "1": "Company",
+      "2": "About",
+      "3": "Blog",
+      "4": "All Products",
+      "5": "Contact",
+      "6": "FAQ",
+      "7": "Contact us"
+    },
+    "Services": {
+      "1": "Services",
+      "2": "Cart",
+      "3": "Wish List",
+      "4": "Login",
+      "5": "Checkout",
+      "6": "Terms & Conditions",
+      "7": "Promotional Offers"
+    },
+    "Customer Care": {
+      "1": "Customer Care",
+      "2": "Login",
+      "3": "My account",
+      "4": "Wish List",
+      "5": "Add listing",
+      "6": "FAQ",
+      "7": "Contact us"
+    },
+    "Newsletter": {
+      "1": "Newsletter",
+      "2": "Subscribe to our weekly Newsletter and receive updates via email.",
+      "3": "We Accept"
+    }
+  }
+}

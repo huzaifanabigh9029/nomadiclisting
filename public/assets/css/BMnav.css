@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap");
+:root {
+  --red: #ff3838;
+  --gray: #777777;
+  --blue: #1494a9;
+  --white: #ffffff;
+  --chalk: #f5f5f5;
+  --green: #11b76b;
+  --purple: #b12fad;
+  --orange: #e86121;
+  --yellow: #ffab10;
+  --text: #555555;
+  --dark: #0d0633;
+  --border: #e8e8e8;
+  --heading: #232d3b;
+  --primary: #a91647;
+  --primary-light: #75a7ff;
+  --primary-hover: #0022aa;
+  --view: #8edb04;
+  --click: #01cbd5;
+  --rating: #e8ce00;
+  --sale: #dc3545;
+  --rent: #03a70c;
+  --booking: #7209af;
+  --facebook: #3b5998;
+  --linkedin: #0e76a8;
+  --twitter: #00acee;
+  --primary-bshadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.1);
+  --primary-tshadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-nav {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  background: var(--white);
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.mobile-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80px;
+  padding: 8px 0px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.mobile-widget:hover {
+  background: var(--chalk);
+}
+
+.mobile-widget:hover i {
+  color: var(--primary);
+}
+
+.mobile-widget:hover span {
+  color: var(--primary);
+}
+
+.mobile-widget i {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: var(--text);
+  text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-widget span {
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--text);
+  text-transform: uppercase;
+}
+
+.mobile-widget sup {
+  position: absolute;
+  top: -5px;
+  left: 70%;
+  font-size: 12px;
+  padding: 0px 6px;
+  line-height: 20px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  color: var(--white);
+  background: var(--primary);
+  border: 2px solid var(--green-chalk);
+  text-shadow: var(--primary-tshadow);
+}
+
+.plus-btn {
+  margin-top: -35px;
+}
+
+.plus-btn i {
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 42px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+  text-align: center;
+  color: var(--white);
+  background: var(--primary);
+  border: 8px solid var(--white);
+}
+
+.plus-btn:hover {
+  background: transparent;
+}
+
+.plus-btn:hover i {
+  color: var(--white);
+}
+
+@media (max-width: 1199px) {
+  .mobile-nav {
+    display: block;
+  }
+}
+
+.header-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.filter-short {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-show {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 8px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.filter-select {
+  height: 40px;
+  font-size: 14px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.filter-select:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+.filter-action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.filter-action a i {
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: var(--text);
+  background: var(--white);
+}
+
+.filter-action a i:hover {
+  color: var(--primary);
+}
+
+.filter-action .active i {
+  color: var(--white);
+  background: var(--primary);
+}
+
+.filter-action .active i:hover {
+  color: var(--white);
+}
+
+@media (max-width: 575px) {
+  .filter-label,
+  .filter-action {
+    display: none;
+  }
+  .filter-show {
+    width: 80px;
+  }
+  .filter-short {
+    width: 130px;
+  }
+}
+.Select {
+  width: 100%;
+  margin: 0;
+  line-height: 58px;
+  border-radius: 0;
+  min-width: 200px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--ltn__heading-font);
+}
+.select .option {
+  margin-top: 0;
+  white-space: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.8;
+}
+
+.select .list {
+  min-width: 100%;
+}
